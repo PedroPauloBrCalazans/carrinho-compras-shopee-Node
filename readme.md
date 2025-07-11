@@ -9,9 +9,13 @@
 - carrinho
 - itens
 
-## Casos de uso:
+## Casos de uso do carrinho:
 
 - Adicionar item no carrinho
 - Deletar item do carrinho
 - Remover um item
 - Calcular o total
+
+## Casos de uso dos itens:
+
+- Criar item com subtotal
