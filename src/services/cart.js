@@ -22,7 +22,7 @@ async function displayCart(userCart) {
     console.log(
       `${index + 1}. ${item.name} - R$ ${item.price} | ${
         item.quantity
-      } | SubTotal ${item.subtotal()}`
+      } | SubTotal = ${item.subtotal()}`
     );
   });
 }
@@ -30,7 +30,7 @@ async function displayCart(userCart) {
 async function calculateTotal(userCart) {
   const result = userCart.reduce((total, item) => total + item.subtotal(), 0);
 
-  console.log(result);
+  console.log(`Total da compra = ${result}`);
 }
 
 export { addItem, calculateTotal, deleteItem, removeItem, displayCart };
