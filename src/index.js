@@ -17,6 +17,5 @@ await cartService.displayCart(myCart);
 
 // await cartService.deleteItem(myCart, item2.name);
 
-console.log("Carrinho da Shopee: ");
 await cartService.calculateTotal(myCart);
 // console.log(item2.subtotal());
